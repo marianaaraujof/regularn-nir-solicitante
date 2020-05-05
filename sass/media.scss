@@ -1,0 +1,103 @@
+@media screen and (max-width:1170px) {
+
+    .aside {
+        align-items: flex-start;
+        height: auto;
+        position: inherit;
+        width: 100%;
+        padding: 1rem;
+
+        img.logo {
+            display: block;
+            margin: auto;
+            max-width: 30%;
+
+
+        }
+
+        .tops-sidebar {
+            width: 100%;
+        }
+
+        .tuto {
+            margin-bottom: 30px;
+        }
+
+        .desenvolvimento {
+          margin-top: 25px;
+            p {
+              margin-bottom: 0;
+            }
+            img {
+              width: 28%;
+            }
+
+            img:not(:last-child){
+              margin-right: 15px;
+            }
+        }
+
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .section a {
+        white-space: pre-line;
+        word-break: break-all;
+    }
+
+    // footer {
+    //     img {
+    //         width: 30% !important;
+    //          margin-left: 13%;
+    //          margin-bottom: 30px;
+    //     }
+
+    //     .sus {
+    //         width: 15% !important;
+    //       }
+        
+    //       .min-saude {
+    //         width: 30% !important;
+    //       }
+    // }
+    
+}
+
+
+@media(max-width: 1333px) {
+    .grid-item {
+      flex-basis: 33.33%;
+    }
+  }
+  
+  @media(max-width: 1073px) {
+     .grid-item {
+      flex-basis: 33.33%;
+    }
+  }
+  
+  @media(max-width: 815px) {
+    .grid-item {
+      flex-basis: 50%;
+    }
+  }
+  
+  @media(max-width: 620px) {
+    .col {
+      clear: both;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto !important;
+    }
+  }
+  
+  @media(max-width: 555px) {
+    .grid-item {
+      flex-basis: 100%;
+    }
+  }
